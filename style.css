@@ -1,0 +1,27 @@
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; 
+    transition: background-color 2s linear; 
+    animation: changeColor 5s infinite alternate; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+transform: translate(-50%, -50%);
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: #3498db;
+    }
+    25% {
+        background-color: #e74c3c;
+    }
+    50% {
+        background-color: #24d314;
+    }
+    100% {
+        background-color: #ecf007;
+    }
+}
+
